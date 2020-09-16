@@ -9,13 +9,13 @@
  * Assign q1 a value of type boolean
  */
 
-const q1 = true;
+const q1 = null;
 
 /**
  * QUESTION 2
  * Assign q2 a value of type number
  */
-const q2 = 10;
+const q2 = null;
 
 
 /**
