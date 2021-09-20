@@ -123,7 +123,7 @@ const q11 = noPeriod;
 //  }
  
  for (let i = 0; i < q11.length; i++){
-   wordLength.push(q11[i].length);
+   wordLength.push([q11[i].length]);
  }
  
  const q12 = wordLength;
