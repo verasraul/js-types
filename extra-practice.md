@@ -18,57 +18,57 @@ What is the output of each of the expressions below?
 
 ```js
 typeof(15)
-// Prediction:
-// Actual:
+// Prediction: integer
+// Actual: "number"
 
 typeof(5.5)
-// Prediction:
-// Actual:
+// Prediction: float
+// Actual: "number"
 
 typeof(NaN)
-// Prediction:
-// Actual:
+// Prediction: not a number
+// Actual: "number"
 
 typeof("hello")
-// Prediction:
-// Actual:
+// Prediction: string
+// Actual: "string"
 
 typeof(true)
-// Prediction:
-// Actual:
+// Prediction: boolean
+// Actual: "boolean"
 
 typeof(1 != 2)
-// Prediction:
-// Actual:
+// Prediction: true
+// Actual: "boolean"
 
 
 "hamburger" + "s"
-// Prediction:
-// Actual:
+// Prediction: "hamburgers"
+// Actual: "hamburgers"
 
 "hamburgers" - "s"
-// Prediction:
-// Actual:
+// Prediction: "hamburger"
+// Actual: "NaN"
 
 "1" + "3"
-// Prediction:
-// Actual:
+// Prediction: "13"
+// Actual: "13"
 
 "1" - "3"
-// Prediction:
-// Actual:
+// Prediction: error
+// Actual: -2
 
 "johnny" + 5
-// Prediction:
-// Actual:
+// Prediction: error
+// Actual: "johnny5"
 
 "johnny" - 5
-// Prediction:
-// Actual:
+// Prediction: error
+// Actual: NaN
 
 99 * "luftbaloons"
-// Prediction:
-// Actual:
+// Prediction: prints luftbaloons 99 times
+// Actual: NaN
 ```
 
 What's going on in the second half of the previous question? Are there any "rules" we can pull from those examples?
